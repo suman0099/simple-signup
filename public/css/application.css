@@ -1,0 +1,31 @@
+body {
+  font-family: Roboto;
+  background: #a770ef; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fdb99b,
+    #cf8bf3,
+    #a770ef
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fdb99b,
+    #cf8bf3,
+    #a770ef
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+  margin-top: 100px;
+  padding: 20px 20px 100px 20px;
+  width: 60%;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}

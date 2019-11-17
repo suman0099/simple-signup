@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/signup.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form action="/login" method="POST">
+        <div class="form-group">
+          <label>Username</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username"
+            name="user[username]"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="Password"
+            name="user[password]"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary ">
+          Login
+        </button>
+      </form>
+      <p class="mt-3">Not Registered? -<a href="/"> Register</a></p>
+    </div>
+  </body>
+</html>
